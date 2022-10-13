@@ -1,6 +1,6 @@
 const { Selector, t } = require("testcafe");
 
-class InputPaage {
+class InputPage {
   constructor() {
     this.systemName = Selector("#system_name");
     this.type = Selector("#type");
@@ -29,4 +29,4 @@ class InputPaage {
   }
 }
 
-module.exports = new InputPaage();
+module.exports = new InputPage();
